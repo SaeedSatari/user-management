@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.saeed.springbank</groupId>
 	<artifactId>user-query-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>user-query-api</name>
 	<description>User Query API Service</description>
 	<properties>
@@ -29,7 +29,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.axonframework/axon-spring-boot-starter -->
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-spring-boot-starter</artifactId>
+			<version>4.6.1</version>
+		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -44,6 +49,12 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.saeed.springbank</groupId>
+			<artifactId>user-core</artifactId>
+			<version>1.0</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 
