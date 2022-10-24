@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
-@Import({AxonConfig.class, MongoConfig.class})
+@Import({ AxonConfig.class, MongoConfig.class })
 public class UserQueryApplication {
 
 	public static void main(String[] args) {
