@@ -1,7 +1,7 @@
 package com.saeed.springbank.user.cmd.api.controllers;
 
 import com.saeed.springbank.user.cmd.api.commands.RemoveUserCommand;
-import com.saeed.springbank.user.cmd.api.dto.BaseResponse;
+import com.saeed.springbank.user.core.dto.BaseResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
